@@ -1,0 +1,12 @@
+Nome Tabella - autoUsate
+
+Primary Key -
+codAuto - SMALLINT
+marca - VARCHAR(20)
+modello - VARCHAR(80)
+colore - VARCHAR(20)
+prezzo - DOUBLE(7, 2)
+kmPercorsi - DOUBLE(7, 1)
+annoImm - YEAR
+imgAuto - TEXT
+
