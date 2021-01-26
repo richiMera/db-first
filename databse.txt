@@ -1,12 +1,12 @@
 Nome Tabella - autoUsate
 
 Primary Key -
-codAuto - SMALLINT
-marca - VARCHAR(20)
-modello - VARCHAR(80)
-colore - VARCHAR(20)
-prezzo - DOUBLE(7, 2)
-kmPercorsi - DOUBLE(7, 1)
+codAuto - SMALLINT NOTNULL UNIQUE
+marca - VARCHAR(20) NOTNULL
+modello - VARCHAR(80) NOTNULL
+colore - VARCHAR(20) 
+prezzo - DOUBLE(7, 2) NOTNULL
+kmPercorsi - DOUBLE(7, 1) NOTNULL
 annoImm - YEAR
-imgAuto - TEXT
+imgAuto - TEXT DEFAULT("http....")
 
